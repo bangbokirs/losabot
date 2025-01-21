@@ -1,0 +1,23 @@
+{
+  "name": "losabot",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch --env-file .env src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "keywords": [],
+  "author": "Bangbokir",
+  "license": "MIT",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
