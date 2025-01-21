@@ -1,6 +1,6 @@
+import { commands } from "@/commands";
 import { REST, Routes } from "discord.js";
-import { config } from "./config";
-import { commands } from "./commands";
+import { config } from "@/lib/config";
 
 const commandsData = Object.values(commands).map((command) => command.data);
 

@@ -5,5 +5,7 @@ export const data = new SlashCommandBuilder()
   .setDescription("Replies with Pong!");
 
 export async function execute(interaction: CommandInteraction) {
-  return interaction.reply("Apa lo kontol!");
+  console.log("ping command executed");
+  console.info(interaction);
+  return interaction.reply(`Hello ${interaction.user.displayName}!`);
 }

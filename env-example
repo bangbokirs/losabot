@@ -1,2 +1,7 @@
 DISCORD_TOKEN=""
 DISCORD_CLIENT_ID=""
+DISCORD_GUILD_ID=""
+
+LOSAGAME_URL="sqlserver://HOST:1433;database=LosaGame;user=sa;password=PASSWORD;trustServerCertificate=true"
+LOSAADMIN_URL="sqlserver://HOST:1433;database=LosaAdmin;user=sa;password=PASSWORD;trustServerCertificate=true"
+LOSALOGDATA_URL="sqlserver://HOST:1433;database=LosaLogData;user=sa;password=PASSWORD;trustServerCertificate=true"
